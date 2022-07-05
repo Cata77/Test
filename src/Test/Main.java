@@ -14,7 +14,5 @@ public class Main {
         car.showColor();
         car.payTax();
 
-        Person person = new Person(20,"Catalin","romanian",1.87);
-        person.checkAge();
     }
 }
