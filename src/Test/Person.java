@@ -13,6 +13,23 @@ public class Person {
         this.height = height;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void checkHeight() {
         if (this.height > 1.7)
             System.out.println("This person is tall");
