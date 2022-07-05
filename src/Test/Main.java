@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Welcome to the shop!");
 
         Vehicle vehicle = new Vehicle(50_000,"Mercedes");
+        vehicle.startEngine();
         System.out.println(vehicle);
     }
 }

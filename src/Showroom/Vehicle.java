@@ -9,6 +9,10 @@ public class Vehicle {
         this.model = model;
     }
 
+    public void startEngine() {
+        System.out.println(this.model + " started the engine!");
+    }
+
     @Override
     public String toString() {
         return "Vehicle{" +
