@@ -13,6 +13,5 @@ public class Main {
         Car car = new Car(5_300,"Audi","purple");
         car.showColor();
         car.payTax();
-
     }
 }
