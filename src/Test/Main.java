@@ -16,5 +16,8 @@ public class Main {
 
         Person person = new Person(20,"Catalin","romanian",1.87);
         person.checkAge();
+
+        Food food = new Food("Apple",5,10.2);
+        System.out.println(food.totalPrice());
     }
 }
