@@ -14,4 +14,9 @@ public class Food {
     public int totalPrice() {
         return this.amount * (int)this.price;
     }
+
+    public void checkFood() {
+        if(this.name.equals("Apple"))
+            System.out.println("This is a fruit!");
+    }
 }

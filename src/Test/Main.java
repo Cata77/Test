@@ -19,5 +19,6 @@ public class Main {
 
         Food food = new Food("Apple",5,10.2);
         System.out.println(food.totalPrice());
+        food.checkFood();
     }
 }
