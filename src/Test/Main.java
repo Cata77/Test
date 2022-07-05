@@ -10,7 +10,8 @@ public class Main {
         Vehicle vehicle = new Vehicle(50_000,"Mercedes");
         vehicle.startEngine();
 
-        Car car = new Car(4_300,"Audi","purple");
+        Car car = new Car(5_300,"Audi","purple");
         car.showColor();
+        car.payTax();
     }
 }
