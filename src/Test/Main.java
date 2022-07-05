@@ -13,5 +13,8 @@ public class Main {
         Car car = new Car(5_300,"Audi","purple");
         car.showColor();
         car.payTax();
+        Food food = new Food("Apple",5,10.2);
+        System.out.println(food.totalPrice());
+        food.checkFood();
     }
 }
