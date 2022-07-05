@@ -16,5 +16,6 @@ public class Main {
 
         Person person = new Person(20,"Florin","german",1.9);
         person.checkHeight();
+        person.checkNationality();
     }
 }

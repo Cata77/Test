@@ -18,4 +18,10 @@ public class Person {
             System.out.println("This person is tall");
         else System.out.println("This person is short");
     }
+
+    public void checkNationality() {
+        if (this.nationality.equals("german"))
+            System.out.println("This person is from Germany");
+        else System.out.println("This person is not from Germany");
+    }
 }
